@@ -27,7 +27,7 @@ class Calculator extends React.PureComponent {
     const currentState = this.state;
     return (
       <div className="calculator">
-        <div className="screen" onChange={this.handleDisplay}>{currentState.total || currentState.next || 0}</div>
+        <div className="screen" onChange={this.handleDisplay}>{currentState.next || currentState.total || 0}</div>
         <div className="row">
           <button type="button" className="gray" value="AC" onClick={this.handleClick}>AC</button>
           <button type="button" className="gray" value="+/-" onClick={this.handleClick}>+/-</button>
