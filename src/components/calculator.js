@@ -7,8 +7,8 @@ class Calculator extends React.Component {
   // }
   render() {
     return (
-      <div>
-        <div className="screen" />
+      <div className="calculator">
+        <div className="screen">0</div>
         <div className="row">
           <button type="button" className="gray">AC</button>
           <button type="button" className="gray">+/-</button>
@@ -35,6 +35,7 @@ class Calculator extends React.Component {
         </div>
         <div className="row">
           <button type="button" className="zero">0</button>
+          <button type="button" className="gray">.</button>
           <button type="button" className="orange">=</button>
         </div>
       </div>
