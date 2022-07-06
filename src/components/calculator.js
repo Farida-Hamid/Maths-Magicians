@@ -1,9 +1,12 @@
 import React from 'react';
+import operate from '../logic/operate';
+import calculate from '../logic/calculate';
 
 class Calculator extends React.PureComponent {
-  // constructor(props) {
-  //   super(props);
-  // }
+  constructor(props) {
+    super(props);
+  }
+
   render() {
     return (
       <div className="calculator">
