@@ -1,21 +1,28 @@
-body {
-  margin: 0;
-}
-
 .calculator {
-  margin: auto;
+  width: fit-content;
 }
 
 .screen {
-  width: max-content;
+  width: 100%;
   height: 40px;
+  background: #858693;
+  text-align: right;
 }
 
 button {
   width: 60px;
   height: 40px;
+  border: solid 0.25px #c5c5c5;
 }
 
 .zero {
   width: 120px;
+}
+
+.gray {
+  background: #e0e0e0;
+}
+
+.orange {
+  background: #f5913e;
 }
