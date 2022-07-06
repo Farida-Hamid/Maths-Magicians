@@ -1,7 +1,6 @@
 import React from 'react';
 
-// eslint-disable-next-line react/prefer-stateless-function
-class Calculator extends React.Component {
+class Calculator extends React.PureComponent {
   // constructor(props) {
   //   super(props);
   // }
