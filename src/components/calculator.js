@@ -66,6 +66,14 @@ const Calculator = ((total, next) => {
   const [total, setTotal] = useState(0);
   const [next, setNext] = useState(0);
 
+  const handleClick = (event) => {
+    const result = calculate({total, next}, event.target.value);
+    setTotal(result);
+  };
+
+  const handleDisplay = (event) => {
+    setTotal(event.target.value);
+  };
 });
 
 export default Calculator;
