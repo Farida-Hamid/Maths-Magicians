@@ -14,6 +14,7 @@ function isNumber(item) {
  *   operation:String  +, -, etc.
  */
 export default function calculate(obj, buttonName) {
+  console.log('calculating obj=', obj, 'buttonName=', buttonName);
   if (buttonName === 'AC') {
     return {
       total: null,
