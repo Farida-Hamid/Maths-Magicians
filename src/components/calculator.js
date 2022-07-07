@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 
 class Calculator extends React.PureComponent {
@@ -61,5 +61,11 @@ class Calculator extends React.PureComponent {
     );
   }
 }
+
+const Calculator = ((total, next) => {
+  const [total, setTotal] = useState(0);
+  const [next, setNext] = useState(0);
+
+});
 
 export default Calculator;
