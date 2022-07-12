@@ -2,10 +2,10 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Routes,
-  Route,
-  Link,
+  // Route,
+  // Link,
 } from 'react-router-dom';
-import Calculator from './components/calculator';
+// import Calculator from './components/calculator';
 
 const App = (() => (
   <Router>
