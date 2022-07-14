@@ -8,6 +8,7 @@ import {
 import Header from './components/Header';
 import Home from './components/Home';
 import Math from './components/Math';
+import Quotes from './components/Quotes'
 
 const App = (() => (
   <Router>
@@ -15,7 +16,7 @@ const App = (() => (
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/calculator" element={<Math />} />
-      {/* <Route path="/quote" element={<Quote />} /> */}
+      <Route path="/quote" element={<Quotes />} />
     </Routes>
   </Router>
 )
