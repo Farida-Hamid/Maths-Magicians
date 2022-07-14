@@ -6,7 +6,7 @@ import {
   Route,
 } from 'react-router-dom';
 import Header from './components/Header';
-import Home from './components/Navigator';
+import Home from './components/Home';
 import Math from './components/Math';
 
 const App = (() => (
