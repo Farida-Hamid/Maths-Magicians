@@ -8,7 +8,7 @@ import {
 import Header from './components/Header';
 import Home from './components/Home';
 import Math from './components/Math';
-import Quotes from './components/Quotes'
+import Quotes from './components/Quotes';
 
 const App = (() => (
   <Router>

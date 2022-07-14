@@ -2,7 +2,10 @@ import Calculator from './calculator';
 
 function Math() {
   return (
-    <Calculator />
+    <>
+      <h2>Let&apos;s do some Math!</h2>
+      <Calculator />
+    </>
   );
 }
 
