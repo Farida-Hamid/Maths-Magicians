@@ -1,0 +1,24 @@
+body {
+  padding: 50px;
+}
+
+header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+a {
+  padding: 15px;
+}
+
+.calculatorPage {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
